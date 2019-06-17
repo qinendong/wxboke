@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view class="markdown_view"><image src="{{items[0].image?items[0].image:''}}" alt width="100%;" class="_img"></image><view class="markdown _div"><rich-text nodes="{{$root.m0}}"></rich-text></view></view><view><loding></loding></view></view>

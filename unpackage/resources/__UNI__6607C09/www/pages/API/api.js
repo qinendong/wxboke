@@ -1,0 +1,2 @@
+setCssToHead(["wx-button { background-color: #007aff; color: #ffffff; }\n",],undefined,{path:"./pages/API/api.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/API/api.wxml') } }));

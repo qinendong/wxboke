@@ -1,0 +1,11 @@
+
+.active{
+	text-align: right;
+}
+.active1{
+	text-align: left;
+}
+.bottom{
+	position: absolute;bottom:0;left: 0;width: 100%;border-top: #000000 2rpx solid;
+}
+

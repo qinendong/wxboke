@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"userinfo-avatar { border-radius: ",[0,128],"; width: ",[0,128],"; height: ",[0,128],"; }\n",],undefined,{path:"./pages/getuser/getuser.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/getuser/getuser.wxml') } }));

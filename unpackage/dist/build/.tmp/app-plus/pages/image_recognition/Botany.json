@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "植物识别",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cpimg": "/components/cpimg"
+  }
+}

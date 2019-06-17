@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"showimg{ margin: ",[0,20]," 0; width: ",[0,750],"; }\n.",[1],"imgPath{ word-break: break-all; }\n.",[1],"uni-input{ height: 2rem; min-height: 2rem; }\n",],undefined,{path:"./pages/QR_image/qrimage.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/QR_image/qrimage.wxml') } }));

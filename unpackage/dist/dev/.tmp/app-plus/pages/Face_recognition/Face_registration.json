@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "最美的证件照",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cpimg": "/components/cpimg"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "cnblogs",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "loding": "/components/loding"
+  }
+}

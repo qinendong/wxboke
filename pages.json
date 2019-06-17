@@ -1,0 +1,205 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/API/api",
+			"style": {
+				"navigationBarTitleText": "登陆",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/getuser/getuser",
+			"style": {
+				"navigationBarTitleText": "getuser",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/markdown/markdown",
+			"style": {
+				"navigationBarTitleText": "弱小",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/cnblogs/cnblogs",
+			"style": {
+				"navigationBarTitleText": "cnblogs",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/content_body/content_body",
+			"style": {
+				"navigationBarTitleText": "博客园新闻",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/tabar/tabar",
+			"style": {
+				"navigationBarTitleText": "博客园",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/AI_list/AI_list",
+			"style": {
+				"navigationBarTitleText": "百度AI",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/image_recognition/Dish_recognition",
+			"style": {
+				"navigationBarTitleText": "菜品识别",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/image_recognition/Animal_recognition",
+			"style": {
+				"navigationBarTitleText": "动物识别",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/image_recognition/Vehicle_type_recognition",
+			"style": {
+				"navigationBarTitleText": "车型识别",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/image_recognition/Botany",
+			"style": {
+				"navigationBarTitleText": "植物识别",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/Face_recognition/Face_detection",
+			"style": {
+				"navigationBarTitleText": "人脸识别",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/Face_recognition/Face_registration",
+			"style": {
+				"navigationBarTitleText": "最美的证件照",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/QR_image/qrimage",
+			"style": {
+				"navigationBarTitleText": "二维码生成",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/Robot/Robot",
+			"style": {
+				"navigationBarTitleText": "话术机器人",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+			}
+			
+		},
+		{
+			"path": "pages/voice/voice",
+			"style": {
+				"navigationBarTitleText": "语音输入",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/voice/voice1",
+			"style": {
+				"navigationBarTitleText": "人机对话",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		},
+		{
+			"path": "pages/audio/audio",
+			"style": {
+				"navigationBarTitleText": "语音播放",//设置页面标题文字
+				"enablePullDownRefresh":true//开启下拉刷新
+				
+			}
+		}
+		
+		
+	],
+	"globalStyle": {//用于设置应用的状态栏、导航条、标题、窗口背景色等。
+		"navigationBarTextStyle": "black",//导航栏标题颜色
+		"navigationBarTitleText": "uni-app",//标题文字内容
+		"navigationBarBackgroundColor": "#F8F8F8",//导航背景颜色
+		"backgroundColor": "#F8F8F8s"//窗口的背景色
+	},
+	"tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "static/d.png",
+            "selectedIconPath": "static/d.png",
+            "text": "首页"
+        },{
+            "pagePath": "pages/tabar/tabar",
+            "iconPath": "static/b.png",
+            "selectedIconPath": "static/b.png",
+            "text": "博客园"
+        }, {
+		    "pagePath": "pages/AI_list/AI_list",
+		    "iconPath": "static/c.png",
+		    "selectedIconPath": "static/c.png",
+		    "text": "百度AI"
+		}, {
+            "pagePath": "pages/API/api",
+            "iconPath": "static/a.png",
+            "selectedIconPath": "static/a.png",
+            "text": "我的"
+        }]
+    },
+	"condition": { //模式配置，仅开发期间生效
+    "current": 0, //当前激活的模式（list 的索引项）
+    "list": [{
+            "name": "swiper", //模式名称
+            "path": "pages/index/index", //启动页面，必选
+            "query": "id=4000&name='qin'" //启动参数，在页面的onLoad函数里面得到。
+        },
+        {
+            "name": "test",
+            "path": "pages/component/switch/switch"
+        }
+    ]
+}
+	
+}

@@ -1,0 +1,17 @@
+
+.markdown{font-size: 1.3em;line-height: 1.8em;}
+.markdown_view{width: 94%;margin: 0 auto;}
+.content_body_img{
+	width: 100%;
+	margin: 8px 0;
+}
+.content_body_p{
+	margin: 8px 0;
+}
+.content_body_title{
+	font-size: 1.5em;font-weight: 700;margin-bottom: 20px;margin-top: 5px;
+}
+.markdown_view_header{
+	border-bottom: 1px solid #cccccc;
+}
+

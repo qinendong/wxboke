@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "车型识别",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "cpimg": "/components/cpimg"
+  }
+}

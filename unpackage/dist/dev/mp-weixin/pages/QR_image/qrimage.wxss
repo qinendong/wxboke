@@ -1,0 +1,14 @@
+
+.showimg{
+	margin: 20rpx 0;
+	width: 750rpx;
+}
+.imgPath{
+	
+	word-break: break-all;
+}
+.uni-input{
+	height: 2rem;
+	min-height: 2rem;
+}
+

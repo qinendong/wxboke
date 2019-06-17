@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['switch_loading',['$event']]]]]}}" hidden="{{!(is_loading)}}" class="loading_box" bindtap="__e" bind:__l="__l"><view class="loading"><image src="../static/a.gif" mode></image></view></view>
